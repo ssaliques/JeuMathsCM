@@ -20,6 +20,7 @@
 		BE4468D7247FD97400C88E17 /* MaVue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4468D6247FD97400C88E17 /* MaVue.swift */; };
 		BE4468D9247FF63C00C88E17 /* MonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4468D8247FF63C00C88E17 /* MonButton.swift */; };
 		BE4468DB247FF68500C88E17 /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4468DA247FF68500C88E17 /* ExtensionView.swift */; };
+		BE4468DD248005FF00C88E17 /* Reponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4468DC248005FF00C88E17 /* Reponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		BE4468D6247FD97400C88E17 /* MaVue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaVue.swift; sourceTree = "<group>"; };
 		BE4468D8247FF63C00C88E17 /* MonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonButton.swift; sourceTree = "<group>"; };
 		BE4468DA247FF68500C88E17 /* ExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionView.swift; sourceTree = "<group>"; };
+		BE4468DC248005FF00C88E17 /* Reponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				BE4468D6247FD97400C88E17 /* MaVue.swift */,
 				BE4468D8247FF63C00C88E17 /* MonButton.swift */,
 				BE4468DA247FF68500C88E17 /* ExtensionView.swift */,
+				BE4468DC248005FF00C88E17 /* Reponse.swift */,
 			);
 			path = JeuMathsCM;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE4468D9247FF63C00C88E17 /* MonButton.swift in Sources */,
+				BE4468DD248005FF00C88E17 /* Reponse.swift in Sources */,
 				BE4468D7247FD97400C88E17 /* MaVue.swift in Sources */,
 				BE4468D5247FC5CE00C88E17 /* AppDelegate.swift in Sources */,
 				BE4468B1247FBE9300C88E17 /* ViewController.swift in Sources */,

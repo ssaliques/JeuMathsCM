@@ -11,6 +11,7 @@ import UIKit
 class MaVue: UIView {
     
     var masque = UIView()
+    var reponse = Reponse.peutEtre
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -23,7 +24,7 @@ class MaVue: UIView {
     
     func ajoutMasque() {
         masque = UIView(frame: bounds)
-        masque.backgroundColor = .green
+        masque.backgroundColor = .clear
         masque.layer.cornerRadius = 10
         masque.alpha = 0.25
         addSubview(masque)
@@ -36,6 +37,14 @@ class MaVue: UIView {
         
     }
     
+    func setMasqueCouleur (_ reponse: Reponse) {
+        switch reponse {
+        case .oui: masque.backgroundColor = .green
+        case .non: masque.backgroundColor = .red
+        case .peutEtre: masque.backgroundColor = .clear
+        }
+        self.reponse = reponse
+    }
     
     
     

@@ -69,6 +69,14 @@ class ViewController: UIViewController {
             let angle = -distance / 360
             carte?.center.x = xPosition
             carte?.transform = CGAffineTransform(rotationAngle: angle)
+            
+            if distance >= 75 {
+                carte?.setMasqueCouleur(.non)
+            } else if distance <= -75 {
+                carte?.setMasqueCouleur(.oui)
+            } else {
+                carte?.setMasqueCouleur(.peutEtre)
+            }
         }
     }
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
