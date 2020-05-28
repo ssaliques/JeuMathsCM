@@ -60,5 +60,14 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Pokemon Solid.ttf</string>
+		<string>LMS Pokemon Master DingBat.ttf</string>
+		<string>LMS Pokemon Master Outline.ttf</string>
+		<string>LMS Pokemon Master Solid.ttf</string>
+		<string>Pokemon Hollow.ttf</string>
+		<string>Pokemon Solid.ttf</string>
+	</array>
 </dict>
 </plist>

@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE4468AD247FBE9300C88E17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4468AC247FBE9300C88E17 /* AppDelegate.swift */; };
 		BE4468AF247FBE9300C88E17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4468AE247FBE9300C88E17 /* SceneDelegate.swift */; };
 		BE4468B1247FBE9300C88E17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4468B0247FBE9300C88E17 /* ViewController.swift */; };
 		BE4468B4247FBE9300C88E17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4468B2247FBE9300C88E17 /* Main.storyboard */; };
 		BE4468B6247FBE9400C88E17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4468B5247FBE9400C88E17 /* Assets.xcassets */; };
 		BE4468B9247FBE9400C88E17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4468B7247FBE9400C88E17 /* LaunchScreen.storyboard */; };
+		BE4468C9247FC24300C88E17 /* LMS Pokemon Master Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE4468C5247FC24300C88E17 /* LMS Pokemon Master Solid.ttf */; };
+		BE4468CA247FC24300C88E17 /* LMS Pokemon Master DingBat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE4468C6247FC24300C88E17 /* LMS Pokemon Master DingBat.ttf */; };
+		BE4468CC247FC24300C88E17 /* LMS Pokemon Master Outline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE4468C8247FC24300C88E17 /* LMS Pokemon Master Outline.ttf */; };
+		BE4468D3247FC54300C88E17 /* sons in Resources */ = {isa = PBXBuildFile; fileRef = BE4468D2247FC54200C88E17 /* sons */; };
+		BE4468D5247FC5CE00C88E17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4468D4247FC5CE00C88E17 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BE4468A9247FBE9300C88E17 /* JeuMathsCM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JeuMathsCM.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE4468AC247FBE9300C88E17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE4468AE247FBE9300C88E17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BE4468B0247FBE9300C88E17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BE4468B3247FBE9300C88E17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE4468B5247FBE9400C88E17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE4468B8247FBE9400C88E17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE4468BA247FBE9400C88E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE4468C1247FC22500C88E17 /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
+		BE4468C2247FC22500C88E17 /* Pokemon Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Hollow.ttf"; sourceTree = "<group>"; };
+		BE4468C3247FC23300C88E17 /* Pokemon Kiddy Ding.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Kiddy Ding.ttf"; sourceTree = "<group>"; };
+		BE4468C5247FC24300C88E17 /* LMS Pokemon Master Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LMS Pokemon Master Solid.ttf"; sourceTree = "<group>"; };
+		BE4468C6247FC24300C88E17 /* LMS Pokemon Master DingBat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LMS Pokemon Master DingBat.ttf"; sourceTree = "<group>"; };
+		BE4468C8247FC24300C88E17 /* LMS Pokemon Master Outline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LMS Pokemon Master Outline.ttf"; sourceTree = "<group>"; };
+		BE4468CD247FC25200C88E17 /* POKPIX1.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = POKPIX1.TTF; sourceTree = "<group>"; };
+		BE4468CE247FC25200C88E17 /* POKPIX2.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = POKPIX2.TTF; sourceTree = "<group>"; };
+		BE4468CF247FC25200C88E17 /* POKPIX3.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = POKPIX3.TTF; sourceTree = "<group>"; };
+		BE4468D2247FC54200C88E17 /* sons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sons; sourceTree = "<group>"; };
+		BE4468D4247FC5CE00C88E17 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../Cours iOS/Age de Chat/Age de Chat/AppDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,33 @@
 		BE4468AB247FBE9300C88E17 /* JeuMathsCM */ = {
 			isa = PBXGroup;
 			children = (
-				BE4468AC247FBE9300C88E17 /* AppDelegate.swift */,
+				BE4468C0247FC1AA00C88E17 /* Ressources */,
+				BE4468D4247FC5CE00C88E17 /* AppDelegate.swift */,
 				BE4468AE247FBE9300C88E17 /* SceneDelegate.swift */,
 				BE4468B0247FBE9300C88E17 /* ViewController.swift */,
 				BE4468B2247FBE9300C88E17 /* Main.storyboard */,
 				BE4468B5247FBE9400C88E17 /* Assets.xcassets */,
 				BE4468B7247FBE9400C88E17 /* LaunchScreen.storyboard */,
 				BE4468BA247FBE9400C88E17 /* Info.plist */,
+				BE4468D2247FC54200C88E17 /* sons */,
 			);
 			path = JeuMathsCM;
+			sourceTree = "<group>";
+		};
+		BE4468C0247FC1AA00C88E17 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				BE4468CD247FC25200C88E17 /* POKPIX1.TTF */,
+				BE4468CE247FC25200C88E17 /* POKPIX2.TTF */,
+				BE4468CF247FC25200C88E17 /* POKPIX3.TTF */,
+				BE4468C6247FC24300C88E17 /* LMS Pokemon Master DingBat.ttf */,
+				BE4468C8247FC24300C88E17 /* LMS Pokemon Master Outline.ttf */,
+				BE4468C5247FC24300C88E17 /* LMS Pokemon Master Solid.ttf */,
+				BE4468C3247FC23300C88E17 /* Pokemon Kiddy Ding.ttf */,
+				BE4468C2247FC22500C88E17 /* Pokemon Hollow.ttf */,
+				BE4468C1247FC22500C88E17 /* Pokemon Solid.ttf */,
+			);
+			path = Ressources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +157,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE4468C9247FC24300C88E17 /* LMS Pokemon Master Solid.ttf in Resources */,
+				BE4468CA247FC24300C88E17 /* LMS Pokemon Master DingBat.ttf in Resources */,
 				BE4468B9247FBE9400C88E17 /* LaunchScreen.storyboard in Resources */,
 				BE4468B6247FBE9400C88E17 /* Assets.xcassets in Resources */,
+				BE4468D3247FC54300C88E17 /* sons in Resources */,
 				BE4468B4247FBE9300C88E17 /* Main.storyboard in Resources */,
+				BE4468CC247FC24300C88E17 /* LMS Pokemon Master Outline.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +174,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE4468D5247FC5CE00C88E17 /* AppDelegate.swift in Sources */,
 				BE4468B1247FBE9300C88E17 /* ViewController.swift in Sources */,
-				BE4468AD247FBE9300C88E17 /* AppDelegate.swift in Sources */,
 				BE4468AF247FBE9300C88E17 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +323,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NQMAUL365G;
 				INFOPLIST_FILE = JeuMathsCM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +342,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NQMAUL365G;
 				INFOPLIST_FILE = JeuMathsCM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
