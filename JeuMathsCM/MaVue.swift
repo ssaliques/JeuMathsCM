@@ -26,6 +26,7 @@ class MaVue: UIView {
         layer.shadowOffset = CGSize(width: 3, height: 3)
         layer.shadowOpacity = 0.75
         layer.shadowRadius  = 3
+        isUserInteractionEnabled = true
         
     }
     

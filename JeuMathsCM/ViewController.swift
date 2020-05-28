@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     var carte: MaVue?
     var hauteurCarte : CGFloat = 200
     var largeurCarte : CGFloat = 200
-    
+    var rect = CGRect()
     
 
     
@@ -32,15 +32,31 @@ class ViewController: UIViewController {
         view.layer.addSublayer(gradient)
         view.bringSubviewToFront(container)
         
+        rect = CGRect(x: container.frame.midX - (largeurCarte / 2), y: container.frame.midY - (hauteurCarte / 2), width: largeurCarte, height: hauteurCarte)
         
         
-        carte = MaVue(frame: CGRect(x: container.frame.midX - (largeurCarte / 2), y: container.frame.midY - (hauteurCarte / 2), width: largeurCarte, height: hauteurCarte))
+        carte = MaVue(frame: rect)
         container.addSubview(carte ?? UIView())
-        
-        
         
     }
 
-
+    
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if let touch = touches.first, touch.view == carte {
+            let xPosition = touch.location(in: container).x
+            let distance = container.frame.midX - xPosition
+            let angle = -distance / 360
+            carte?.center.x = xPosition
+            carte?.transform = CGAffineTransform(rotationAngle: angle)
+        }
+    }
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if let touch = touches.first, touch.view == carte {
+            UIView.animate(withDuration: 0.2, animations: {
+                self.carte?.transform = CGAffineTransform.identity
+                self.carte?.frame = self.rect
+            })
+        }
+    }
 }
 
