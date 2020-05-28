@@ -17,7 +17,8 @@ class ViewController: UIViewController {
     var hauteurCarte : CGFloat = 200
     var largeurCarte : CGFloat = 200
     var rect = CGRect()
-    
+    var boutonOui = MonButton()
+    var boutonNon = MonButton()
 
     
     
@@ -32,17 +33,33 @@ class ViewController: UIViewController {
         view.layer.addSublayer(gradient)
         view.bringSubviewToFront(container)
         
+        // container.backgroundColor = .red
+        container.frame = view.bounds
         rect = CGRect(x: container.frame.midX - (largeurCarte / 2), y: container.frame.midY - (hauteurCarte / 2), width: largeurCarte, height: hauteurCarte)
-        
         
         carte = MaVue(frame: rect)
         container.addSubview(carte ?? UIView())
+        
+        let tiers = container.frame.width / 3
+        let quart = container.frame.width / 4
+        let hauteur : CGFloat =  50
+        let y = container.frame.height - hauteur
+        let taille = CGSize(width: tiers, height: hauteur)
+        
+        boutonNon.frame.size = taille
+        boutonNon.center = CGPoint(x: quart, y: y - hauteur / 2)
+        boutonNon.setup(string: "NON")
+        boutonOui.frame.size = taille
+        boutonOui.center = CGPoint(x: quart * 3, y: y - hauteur / 2)
+        boutonOui.setup(string: "OUI")
+        container.addSubview(boutonOui)
+        container.addSubview(boutonNon)
         
     }
 
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-        if let touch = touches.first, touch.view == carte {
+        if let touch = touches.first, touch.view == carte?.masque {
             let xPosition = touch.location(in: container).x
             let distance = container.frame.midX - xPosition
             let angle = -distance / 360
@@ -51,7 +68,7 @@ class ViewController: UIViewController {
         }
     }
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        if let touch = touches.first, touch.view == carte {
+        if let touch = touches.first, touch.view == carte?.masque {
             UIView.animate(withDuration: 0.2, animations: {
                 self.carte?.transform = CGAffineTransform.identity
                 self.carte?.frame = self.rect

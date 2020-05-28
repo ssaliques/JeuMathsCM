@@ -9,6 +9,8 @@
 import UIKit
 
 class MaVue: UIView {
+    
+    var masque = UIView()
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -18,14 +20,18 @@ class MaVue: UIView {
         super.init(coder: coder)
         setup()
     }
+    
+    func ajoutMasque() {
+        masque = UIView(frame: bounds)
+        masque.backgroundColor = .green
+        masque.layer.cornerRadius = 10
+        masque.alpha = 0.25
+        addSubview(masque)
+    }
 
     func setup() {
-        backgroundColor = .white
-        layer.cornerRadius = 10
-        layer.shadowColor  = UIColor.black.cgColor
-        layer.shadowOffset = CGSize(width: 3, height: 3)
-        layer.shadowOpacity = 0.75
-        layer.shadowRadius  = 3
+        setLayer()
+        ajoutMasque()
         isUserInteractionEnabled = true
         
     }

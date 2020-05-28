@@ -18,6 +18,8 @@
 		BE4468D3247FC54300C88E17 /* sons in Resources */ = {isa = PBXBuildFile; fileRef = BE4468D2247FC54200C88E17 /* sons */; };
 		BE4468D5247FC5CE00C88E17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4468D4247FC5CE00C88E17 /* AppDelegate.swift */; };
 		BE4468D7247FD97400C88E17 /* MaVue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4468D6247FD97400C88E17 /* MaVue.swift */; };
+		BE4468D9247FF63C00C88E17 /* MonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4468D8247FF63C00C88E17 /* MonButton.swift */; };
+		BE4468DB247FF68500C88E17 /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4468DA247FF68500C88E17 /* ExtensionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		BE4468D2247FC54200C88E17 /* sons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sons; sourceTree = "<group>"; };
 		BE4468D4247FC5CE00C88E17 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../Cours iOS/Age de Chat/Age de Chat/AppDelegate.swift"; sourceTree = "<group>"; };
 		BE4468D6247FD97400C88E17 /* MaVue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaVue.swift; sourceTree = "<group>"; };
+		BE4468D8247FF63C00C88E17 /* MonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonButton.swift; sourceTree = "<group>"; };
+		BE4468DA247FF68500C88E17 /* ExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				BE4468BA247FBE9400C88E17 /* Info.plist */,
 				BE4468D2247FC54200C88E17 /* sons */,
 				BE4468D6247FD97400C88E17 /* MaVue.swift */,
+				BE4468D8247FF63C00C88E17 /* MonButton.swift */,
+				BE4468DA247FF68500C88E17 /* ExtensionView.swift */,
 			);
 			path = JeuMathsCM;
 			sourceTree = "<group>";
@@ -177,9 +183,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE4468D9247FF63C00C88E17 /* MonButton.swift in Sources */,
 				BE4468D7247FD97400C88E17 /* MaVue.swift in Sources */,
 				BE4468D5247FC5CE00C88E17 /* AppDelegate.swift in Sources */,
 				BE4468B1247FBE9300C88E17 /* ViewController.swift in Sources */,
+				BE4468DB247FF68500C88E17 /* ExtensionView.swift in Sources */,
 				BE4468AF247FBE9300C88E17 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
