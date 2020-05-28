@@ -17,6 +17,7 @@
 		BE4468CC247FC24300C88E17 /* LMS Pokemon Master Outline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE4468C8247FC24300C88E17 /* LMS Pokemon Master Outline.ttf */; };
 		BE4468D3247FC54300C88E17 /* sons in Resources */ = {isa = PBXBuildFile; fileRef = BE4468D2247FC54200C88E17 /* sons */; };
 		BE4468D5247FC5CE00C88E17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4468D4247FC5CE00C88E17 /* AppDelegate.swift */; };
+		BE4468D7247FD97400C88E17 /* MaVue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4468D6247FD97400C88E17 /* MaVue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		BE4468CF247FC25200C88E17 /* POKPIX3.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = POKPIX3.TTF; sourceTree = "<group>"; };
 		BE4468D2247FC54200C88E17 /* sons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sons; sourceTree = "<group>"; };
 		BE4468D4247FC5CE00C88E17 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../Cours iOS/Age de Chat/Age de Chat/AppDelegate.swift"; sourceTree = "<group>"; };
+		BE4468D6247FD97400C88E17 /* MaVue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaVue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				BE4468B7247FBE9400C88E17 /* LaunchScreen.storyboard */,
 				BE4468BA247FBE9400C88E17 /* Info.plist */,
 				BE4468D2247FC54200C88E17 /* sons */,
+				BE4468D6247FD97400C88E17 /* MaVue.swift */,
 			);
 			path = JeuMathsCM;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE4468D7247FD97400C88E17 /* MaVue.swift in Sources */,
 				BE4468D5247FC5CE00C88E17 /* AppDelegate.swift in Sources */,
 				BE4468B1247FBE9300C88E17 /* ViewController.swift in Sources */,
 				BE4468AF247FBE9300C88E17 /* SceneDelegate.swift in Sources */,

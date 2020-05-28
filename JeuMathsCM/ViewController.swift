@@ -13,15 +13,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var container: UIView!
     
     
-    var carte: UIView?
+    var carte: MaVue?
     var hauteurCarte : CGFloat = 200
     var largeurCarte : CGFloat = 200
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        carte = UIView(frame: CGRect(x: container.frame.midX - (largeurCarte / 2), y: container.frame.midY - (hauteurCarte / 2), width: largeurCarte, height: hauteurCarte))
-        carte?.backgroundColor = .white
+        carte = MaVue(frame: CGRect(x: container.frame.midX - (largeurCarte / 2), y: container.frame.midY - (hauteurCarte / 2), width: largeurCarte, height: hauteurCarte))
         container.addSubview(carte ?? UIView())
         
         
