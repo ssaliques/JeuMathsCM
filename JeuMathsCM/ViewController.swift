@@ -49,11 +49,15 @@ class ViewController: UIViewController {
         boutonNon.frame.size = taille
         boutonNon.center = CGPoint(x: quart, y: y - hauteur / 2)
         boutonNon.setup(string: "NON")
+        boutonNon.addTarget(self, action: #selector(non), for: .touchUpInside)
         boutonOui.frame.size = taille
         boutonOui.center = CGPoint(x: quart * 3, y: y - hauteur / 2)
         boutonOui.setup(string: "OUI")
+        boutonOui.addTarget(self, action: #selector(oui), for: .touchUpInside)
         container.addSubview(boutonOui)
         container.addSubview(boutonNon)
+        
+        
         
     }
 
@@ -75,5 +79,14 @@ class ViewController: UIViewController {
             })
         }
     }
+    
+    @objc func oui() {
+        print("Oui")
+    }
+    
+    @objc func non() {
+        print("Non")
+    }
+    
 }
 
