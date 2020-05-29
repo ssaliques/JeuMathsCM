@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     var rect = CGRect()
     var boutonOui = MonButton()
     var boutonNon = MonButton()
+    var resultat : Int = 51
 
     
     
@@ -56,7 +57,7 @@ class ViewController: UIViewController {
         boutonOui.addTarget(self, action: #selector(oui), for: .touchUpInside)
         container.addSubview(boutonOui)
         container.addSubview(boutonNon)
-        
+        addTexteCarte()
         
         
     }
@@ -95,6 +96,21 @@ class ViewController: UIViewController {
     @objc func non() {
         print("Non")
     }
+    
+    func addTexteCarte (){
+        let yourLabel = UILabel(frame: rect)
+        guard carte != nil else { return }
+        yourLabel.textColor = UIColor.black
+        yourLabel.backgroundColor = UIColor.clear
+        yourLabel.text = "\(resultat)"
+        yourLabel.frame = carte!.bounds
+        yourLabel.baselineAdjustment = .alignCenters
+        yourLabel.textAlignment = .center
+        yourLabel.font = UIFont.systemFont(ofSize: 40)
+        carte!.addSubview(yourLabel)
+        
+    }
+    
     
 }
 
